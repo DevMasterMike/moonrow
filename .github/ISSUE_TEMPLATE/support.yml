@@ -1,0 +1,15 @@
+name: Support request / Solicitud de soporte
+description: Ask a question or report a problem with Moonrow. / Haz una pregunta o reporta un problema.
+title: "Support: "
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / ¿Qué pasó?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version / Dispositivo y versión de iOS
+      placeholder: iPhone 17, iOS 27.1
